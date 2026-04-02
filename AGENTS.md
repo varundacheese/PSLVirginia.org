@@ -4,10 +4,10 @@ This guide helps AI agents understand the structure, conventions, and workflows 
 
 ## Overview
 
-- **Purpose**: Static link-in-bio page generator with plugin support, customized for Richmond Defensa community.
+- **Purpose**: Static link-in-bio page generator with plugin support, customized for PSL Virginia community.
 - **Tech Stack**: Ruby, Liquid templating, GitHub Pages, Font Awesome
 - **Core Files**: `config.yml` (configuration), `scaffold.rb` (build script), `deploy.sh` (deployment), `preview.rb` (local preview server)
-- **Themes**: Located in `./themes/` (default theme included, plus `defensa` theme)
+- **Themes**: Located in `./themes/` (default theme included, plus `PSLVirginia` theme)
 - **Plugins**: Ruby classes in `./plugins/` that fetch dynamic data (e.g., GitHub star counts, I18n translations)
 
 ## Essential Commands

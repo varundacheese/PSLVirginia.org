@@ -1,7 +1,7 @@
 # Site Configuration
 
 # Theme, mapped to the directory: ./theme/xxxx
-theme: defensa
+theme: PSLVirginia
 
 # HTML Language setting
 #lang: "en"
@@ -25,45 +25,50 @@ plugins:
       supported_langs: ["en", "es", "zh"]
       translations:
         Title:
-          en: "Richmond Defensa"
-          es: "Richmond Defensa"
-          zh: "里士满地分撒"
+          en: "PSL Virginia"
+          es: "PSL Virginia"
+          zh: "社会主义与解放党 弗吉尼亚"
         Name:
-          en: "@richmonddefensa"
-          es: "@richmonddefensa"
-          zh: "@richmonddefensa"
+          en: "@PSLVirginia"
+          es: "@PSLVirginia"
+          zh: "@PSLVirginia"
         Tagline:
-          en: "The Richmond Liberation Center is a home for political organizing to achieve social and economic justice in the city that we all call home. We work so that between every large movement, dedicated activists are able to sustain the fight for a better world."
-          es: "El Richmond Liberation Center es un centro de organización política para lograr la justicia social y económica en la ciudad que todos llamamos nuestro hogar. Trabajamos para que, entre cada gran movimiento, los activistas comprometidos puedan mantener la lucha por un mundo mejor."
-          zh: "里士满解放中心是推动政治组织工作的基地，致力于为我们共同的家园——这座城市实现社会与经济正义。我们努力确保在每次大型运动之间，坚定的活动家们能够持续为更美好的世界而奋斗。"
-        Support:
-          en: "Support The Liberation Center!"
-          es: "¡Apoya al Centro de Liberación!"
-          zh: "支持解放中心！"
+          en: "PSL Virginia is the branch of the Party for Socialism and Liberation based out of Richmond, Virginia and Norfolk, Virginia."
+          es: "PSL Virginia es la rama del Partido por el Socialismo y la Liberación con sede en Richmond, Virginia, y Norfolk, Virginia."
+          zh: "PSL Virginia 是“社会主义与解放党”（Party for Socialism and Liberation）的分支机构，总部位于弗吉尼亚州的里士满和诺福克。"
+
         Instagram:
           en: "Follow Us On Instagram"
           es: "Síguenos en Instagram"
           zh: "在Instagram上关注我们"
+        Telegram:
+          en: "Get updates on Telegram"
+          es: "Recibe actualizaciones en Telegram"
+          zh: "在 Telegram 上获取更新"
+        Signal:
+          en: "Get updates on Signal"
+          es: "Recibe actualizaciones en Signal"
+          zh: "在 Signal 上获取更新"
         RAADPetition:
-          en: "Sign The Artists Against Deportation Statement"
-          es: "Firma La Declaración De Artistas Contra La Deportación"
-          zh: "签署Artists Against Apartheid声明"
+          en: "Sign the RAAD Petition"
+          es: "Firma la petición RAAD"
+          zh: "签署 RAAD 请愿书"
         Report:
-          en: "Report Suspicious Activity"
-          es: "Denunciar Actividad Sospechosa"
-          zh: "举报可疑活动"
+          en: "Report an Incident"
+          es: "Reportar un incidente"
+          zh: "报告事件"
 
 # Google Analytics tracking id
 #google_analytics_id:
 
 # HTML Title
-title: "Richmond Liberation Center Linkyee"
+title: "PSL Virginia Linkyee"
 
 # Avatar image path
-avatar: "./images/Logo.svg"
+avatar: "./images/PSLVA_Logo.svg"
 
 # Name section text
-#name: "@richmonddefensa"
+#name: "@PSLVirginia"
 
 # Tagline section text
 tagline: >-
@@ -78,16 +83,9 @@ tagline: >-
 # target: `_blank` opens in a new tab, `_self` opens in the same frame
 links:
   - link:
-      icon: "fa-solid fa-hand-holding-dollar"
-      text: "<span class='link-button-text-bold'>{{vars.I18n['Support']}}</span>"
-      url: "https://rvaliberation.com/support"
-      alt: "Report"
-      title: "Report"
-      target: "_blank"
-  - link:
       icon: "fa-brands fa-instagram"
       text: "{{vars.I18n['Instagram']}}"
-      url: "https://www.instagram.com/rvaliberationcenter/"
+      url: "https://www.instagram.com/pslvirginia"
       alt: "Instagram"
       title: "Instagram"
       target: "_blank"
@@ -98,27 +96,22 @@ links:
 #      alt: "Whatsapp"
 #      title: "Whatsapp"
 #      target: "_blank"
-#  - link:
-#      icon: "fa-brands fa-telegram"
-#      text: "{{vars.I18n['Telegram']}}"
-#      url: "https://t.me/rvadefensa"
-#      alt: "Telegram"
-#      title: "Telegram"
-#      target: "_blank"
   - link:
-      icon: "fa-solid fa-palette"
-      text: "{{vars.I18n['RAADPetition']}}"
-      url: "https://RVADefensa.com/RAAD"
-      alt: "RAAD Statement"
-      title: "RAAD Statement"
+      icon: "fa-brands fa-telegram"
+      text: "{{vars.I18n['Telegram']}}"
+      url: "https://t.me/pslvirginia"
+      alt: "Telegram"
+      title: "Telegram"
       target: "_blank"
   - link:
-      icon: "fa-solid fa-bullhorn"
-      text: "{{vars.I18n['Report']}}"
-      url: "https://RVADefensa.com/report"
-      alt: "Report"
-      title: "Report"
+      icon: "fa-brands fa-signal-messenger"
+      text: "{{vars.I18n['Signal']}}"
+      url: "https://signal.group/#CjQKINr4fya6aLpVe5SUMzl9Ao0nDFnrQUYquoB29Dk9-h4_EhB1VF9Chvf_OJ3jGiYsh5tS"
+      alt: "Signal"
+      title: "Signal"
       target: "_blank"
+
+
 
 
 # List of social media links
